@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  background: rgb(0, 197, 255);
+  background: linear-gradient(180deg, rgba(0, 197, 255, 1) 0%, rgba(45, 101, 253, 1) 54%);
+
+  min-height: 100vh;
+}
+.sunSet {
+  background: rgb(20, 140, 175);
+  background: linear-gradient(
+    180deg,
+    rgba(20, 140, 175, 1) 14%,
+    rgba(229, 133, 29, 1) 55%,
+    rgba(182, 25, 25, 1) 94%
+  );
+}
+.nigth {
+  background: rgb(93, 173, 236);
+  background: linear-gradient(180deg, rgba(93, 173, 236, 1) 0%, rgba(0, 74, 173, 1) 55%);
+}
