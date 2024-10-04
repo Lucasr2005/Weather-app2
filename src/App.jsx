@@ -56,21 +56,20 @@ function App() {
               <p className="text-white">Ciudad Jardin</p>
             </div>
             <div className="flex flex-row justify-between items-center">
-              <p className="text-white text-6xl font-bold">{currentDay.temp}°</p>
+              <p className="text-white text-7xl font-bold">{currentDay.temp}°</p>
               <img
                 src={clear_day}
                 alt=""
                 className="w-24"
               />
             </div>
-            <div>
-              <p className="text-white">
-                {currentDay.maxtemp}° / {currentDay.mintemp}° Feels like {currentDay.feelslike}°
-              </p>
-            </div>
+
+            <p className="text-white text-lg mt-3">
+              {currentDay.maxtemp}° / {currentDay.mintemp}° Feels like {currentDay.feelslike}°
+            </p>
           </section>
         </section>
-        <section className="bg-black bg-opacity-30 w-5/6 rounded-lg p-2 px-3 mx-auto mt-10">
+        <section className="bg-black bg-opacity-30 w-5/6 rounded-lg p-2 px-3 mx-auto mt-5">
           <h3 className=" text-white text-lg">Next days</h3>
 
           {nextDays.map((day) => (
