@@ -1,16 +1,16 @@
 const initialState = [
     {
         datetime: "2024-10-04",
-        precip: 0,
+        precipprob: 0,
         icon: "",
-        maxtemp: 0,
-        mintemp: 0
+        tempmax: 0,
+        tempmin: 0
     }
 ]
-export const nextDaysReducer = (state = initialState, action) => {
+export const nextDaysReducer = (state = [], action) => {
     switch (action.type) {
-        case ("@currentDay/getWeather"):
-            return [...state, action.payload];
+        case ("@nextDays/getWeather"):
+            return action.payload;
 
         default:
             return state

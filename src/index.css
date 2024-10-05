@@ -22,3 +22,6 @@ body {
   background: rgb(93, 173, 236);
   background: linear-gradient(180deg, rgba(93, 173, 236, 1) 0%, rgba(0, 74, 173, 1) 55%);
 }
+input {
+  all: unset;
+}
