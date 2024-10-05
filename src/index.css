@@ -4,8 +4,8 @@
 body {
   font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
-  background: rgb(0, 197, 255);
-  background: linear-gradient(180deg, rgba(0, 197, 255, 1) 0%, rgba(45, 101, 253, 1) 54%);
+  background: rgb(0, 223, 255);
+  background: linear-gradient(180deg, rgba(0, 223, 255, 1) 0%, rgba(20, 59, 164, 1) 64%);
 
   min-height: 100vh;
 }
