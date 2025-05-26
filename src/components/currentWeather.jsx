@@ -14,7 +14,7 @@ export function CurrentWeather({ showedCity }) {
             alt="pin icon"
             className=" h-12 p-2 mb-2"
           />
-          <p className="text-white text-2xl xl:text-4xl xl:max-h-12 xl:min-h-12 line-clamp-2 overflow-hidden">{showedCity}</p>
+          <p className="text-white text-2xl xl:text-4xl xl:max-h-20 xl:min-h-12 overflow-hidden">{showedCity}</p>
         </div>
         <div className="flex flex-row justify-between items-center xl:ml-12 xl:w-2/3 xl:mt-10">
           <p className="text-white text-7xl font-bold xl:text-8xl ">{currentDay.temp}°</p>
